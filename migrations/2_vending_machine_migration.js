@@ -1,7 +1,7 @@
 import "./VendingMachine.sol";
 
-const VendingMachines = artifacts.require("VendingMachine");
+const VendingMachine = artifacts.require("VendingMachine");
 
 module.exports = function (deployer){
-    deployer.deploy(VendingMachines);
+    deployer.deploy(VendingMachine);
 };
